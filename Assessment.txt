@@ -1,0 +1,34 @@
+Wolf assessments
+
+import requests
+from bs4 import BeautifulSoup
+import pandas as p
+url='https://www.diariomunicipal.sc.gov.br/?q=kb'
+req=requests.get(url)
+content=BeautifulSoup(req.content,'html.parser')
+print(content)
+print(content.title)
+print(content.bdatepicker)
+
+Html
+1)D
+2)B
+3)C
+4)B
+5)A
+
+CSS
+1)A
+2)A
+3)A
+4)D
+5)C
+
+GIT
+1)B
+2)B
+3)B
+4)D
+5)A
+
+
